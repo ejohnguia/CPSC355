@@ -1,0 +1,19 @@
+Script started on 2018-11-30 15:29:52-07:00
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 2[K[K
+usage: a5b mm dd
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 2 28
+February 28th is Winter
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 2 28[K9
+error: an argument was invalid
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 2 29[C[C[C[K[K[K[K12 20
+December 20th is Fall
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 12 20[K1
+December 21st is Winter
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 12 21[C[1P 21[1P 213 21[C[C[C[K[K20
+March 20th is Winter
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ ./a5b 3 20[K1
+March 21st is Spring
+]0;ezra.guia1@csa2:~/Documents/CPSC355/Assignment5ezra.guia1@csa2:~/Documents/CPSC355/Assignment5$ exit
+exit
+
+Script done on 2018-11-30 15:31:25-07:00

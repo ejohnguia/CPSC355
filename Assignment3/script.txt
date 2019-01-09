@@ -1,0 +1,151 @@
+Script started on 2018-10-26 15:16:58-06:00
+]0;ezra.guia1@csa1:~/Documents/CPSC355/Assignment3ezra.guia1@csa1:~/Documents/CPSC355/Assignment3$ gdb 
+assign3       assign3.asm   assign3C      assign3C.asm  assign3C.s    assign3.s     script.txt    
+ezra.guia1@csa1:~/Documents/CPSC355/Assignment3$ gdb assign3
+GNU gdb (GDB) Fedora 8.1.1-3.fc28
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "aarch64-redhat-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from assign3...done.
+(gdb) b 66
+Breakpoint 1 at 0x400658: file assign3.s, line 66.
+(gdb) c
+The program is not being run.
+(gdb) r
+Starting program: /home/ugb/ezra.guia1/Documents/CPSC355/Assignment3/assign3 
+warning: the debug information found in "/usr/lib/debug//usr/lib64/ld-2.27.so.debug" does not match "/lib/ld-linux-aarch64.so.1" (CRC mismatch).
+
+Missing separate debuginfos, use: dnf debuginfo-install glibc-2.27-32.fc28.aarch64
+warning: the debug information found in "/usr/lib/debug//lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+warning: the debug information found in "/usr/lib/debug//usr/lib64/libc-2.27.so.debug" does not match "/lib64/libc.so.6" (CRC mismatch).
+
+v[0]: 103
+v[1]: 198
+v[2]: 105
+v[3]: 115
+v[4]: 81
+v[5]: 255
+v[6]: 74
+v[7]: 236
+v[8]: 41
+v[9]: 205
+v[10]: 186
+v[11]: 171
+v[12]: 242
+v[13]: 251
+v[14]: 227
+v[15]: 70
+v[16]: 124
+v[17]: 194
+v[18]: 84
+v[19]: 248
+v[20]: 27
+v[21]: 232
+v[22]: 231
+v[23]: 141
+v[24]: 118
+v[25]: 90
+v[26]: 46
+v[27]: 99
+v[28]: 51
+v[29]: 159
+v[30]: 201
+v[31]: 154
+v[32]: 102
+v[33]: 50
+v[34]: 13
+v[35]: 183
+v[36]: 49
+v[37]: 88
+v[38]: 163
+v[39]: 90
+v[40]: 37
+v[41]: 93
+v[42]: 5
+v[43]: 23
+v[44]: 88
+v[45]: 233
+v[46]: 94
+v[47]: 212
+v[48]: 171
+v[49]: 178
+
+Breakpoint 1, testI () at assign3.s:67
+67		adrp	x0,	title			//Prints out title
+(gdb) clear
+Deleted breakpoint 1 
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) n
+Program not restarted.
+(gdb) c
+Continuing.
+
+Sorted array:
+v[0]: 103
+v[1]: -976
+v[2]: 105
+v[3]: 0
+v[4]: 81
+v[5]: 0
+v[6]: 74
+v[7]: 0
+v[8]: 41
+v[9]: 0
+v[10]: -1083191296
+v[11]: 171
+v[12]: 242
+v[13]: 0
+v[14]: 1429882359
+v[15]: 70
+v[16]: 124
+v[17]: 0
+v[18]: 84
+v[19]: 0
+v[20]: 27
+v[21]: -2872
+v[22]: -444
+v[23]: 65535
+v[24]: 0
+v[25]: 94
+v[26]: 46
+v[27]: 0
+v[28]: 51
+v[29]: 159
+v[30]: 65535
+v[31]: 0
+v[32]: 0
+v[33]: 0
+v[34]: 13
+v[35]: 178
+v[36]: 49
+v[37]: 88
+v[38]: 0
+v[39]: 0
+v[40]: 37
+v[41]: 0
+v[42]: 0
+v[43]: 23
+v[44]: 88
+v[45]: 0
+v[46]: 94
+v[47]: -1083191296
+v[48]: 171
+v[49]: 178
+[Inferior 1 (process 3149) exited normally]
+(gdb) q
+]0;ezra.guia1@csa1:~/Documents/CPSC355/Assignment3ezra.guia1@csa1:~/Documents/CPSC355/Assignment3$ exit
+exit
+
+Script done on 2018-10-26 15:18:21-06:00

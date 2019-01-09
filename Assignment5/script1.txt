@@ -1,0 +1,116 @@
+Script started on 2018-11-30 12:32:22-07:00
+]0;ezra.guia1@csa1:~/Documents/CPSC355/Assignment5ezra.guia1@csa1:~/Documents/CPSC355/Assignment5$ ./a5aExec 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be enqueued: 12
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 3
+
+Current queue contents:
+  12<-- head of queue<-- tail of queue
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be enqueued: 34
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 3
+
+Current queue contents:
+  12<-- head of queue
+  34<-- tail of queue
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 1
+
+Enter the positive integer value to be enqueued: 221
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 3
+
+Current queue contents:
+  12<-- head of queue
+  34
+  221<-- tail of queue
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 2
+
+Dequeued value is 12
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 3
+
+Current queue contents:
+  34<-- head of queue
+  221<-- tail of queue
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 2
+
+Dequeued value is 34
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 2
+
+Dequeued value is 221
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 2
+
+Queue underflow! Cannot dequeue from an empty queue.
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 3
+
+Empty queue
+
+Press the return key to continue . . . 
+[3J[H[2J### Queue Operations ###
+
+Press 1 - Enqueue, 2 - Dequeue, 3 - Display, 4 - Exit
+Your option? 4
+
+Terminating program
+]0;ezra.guia1@csa1:~/Documents/CPSC355/Assignment5ezra.guia1@csa1:~/Documents/CPSC355/Assignment5$ exit
+exit
+
+Script done on 2018-11-30 12:33:18-07:00
